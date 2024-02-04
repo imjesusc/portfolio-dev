@@ -10,7 +10,7 @@ export const FigureImg = ({ image, name, className }) => {
         alt={name}
         width={300}
         height={300}
-        className="grayscale -rotate-6 w-full h-full object-cover scale-110"
+        className="-rotate-6 w-full h-full object-cover scale-110"
       />
     </figure>
   )

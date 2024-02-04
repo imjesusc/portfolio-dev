@@ -102,13 +102,38 @@
     "reference": "Reference…"
   }],
   "projects": [{
-    "name": "Project",
+    "name": "Slug Generator",
+    "startDate": "2024-01-23",
+    "endDate": "2024-02-03",
+    "description": "Acortador de URL de código abierto. Crea slugs personalizados de forma ilimitada. ",
+    "highlights": [
+      "React", "TypeScript", "Tailwild", "Next.js", "Prisma", "Turso database"
+    ],
+    "url": "https://slugs.vercel.app",
+    "repo": "https://github.com/imjesusc/slug-generator"
+
+  },{
+    "name": "Page Link",
+    "startDate": "2024-01-14",
+    "endDate": "2024-01-15",
+    "description": "Page Link te permite crear páginas de blocks de forma rápida y sencilla con un solo clic.",
+    "highlights": [
+      "React", "Tailwild", "Vite"
+    ],
+    "url": "https://page-link-ds.vercel.app",
+    "repo": "https://github.com/imjesusc/page-link"
+
+  },
+  {
+    "name": "Ecommerce-Sanity-Stripe",
     "startDate": "2019-01-01",
     "endDate": "2021-01-01",
-    "description": "Description...",
+    "description": "Ecommerse simple con Stripe y Sanity. Haz tu compra de manera rápida y sencilla.",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "React", "Tailwild", "Sanity", "Stripe"
     ],
-    "url": "https://project.com/"
+    "url": "https://sanity-stripe-ecommerse.vercel.app",
+    "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
+
   }]
 }

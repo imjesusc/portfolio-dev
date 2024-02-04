@@ -1,5 +1,6 @@
 import React from 'react'
 import { Icons } from '../ui'
+import Link from 'next/link'
 
 export const ProfileNav = ({ basics, profiles }) => {
   const icons = {
@@ -11,20 +12,20 @@ export const ProfileNav = ({ basics, profiles }) => {
     <nav>
       <ul className="flex gap-4 items-center">
         <li>
-          <a
+          <Link
             href={`mailto:${basics.email}`}
             title={basics.email}
             className="block p-2 border rounded-md hover:bg-accent backdrop-blur"
           >
             <Icons.mail className={'text-muted-foreground'} />{' '}
             <p className="sr-only">{basics.email}</p>
-          </a>
+          </Link>
         </li>
 
         {profiles.map((profile) => {
           return (
             <li key={profile.network}>
-              <a
+              <Link
                 href={profile.url}
                 title={
                   profile.network.toLowerCase() === 'github'
@@ -35,7 +36,7 @@ export const ProfileNav = ({ basics, profiles }) => {
               >
                 {icons[profile.network.toLowerCase()]}
                 <p className="sr-only">{profile.url}</p>
-              </a>
+              </Link>
             </li>
           )
         })}
