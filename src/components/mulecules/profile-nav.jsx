@@ -35,11 +35,23 @@ export const ProfileNav = ({ basics, profiles }) => {
                 className="block p-2 border rounded-md hover:bg-accent backdrop-blur"
               >
                 {icons[profile.network.toLowerCase()]}
-                <p className="sr-only">{profile.url}</p>
+                <p className="sr-only">{profile.network}</p>
               </Link>
             </li>
           )
         })}
+
+        <li>
+          <Link
+            href={basics.url}
+            type="download"
+            target="_blank"
+            title={'CV'}
+            className="p-2 border rounded-md bg-accent backdrop-blur flex items-center gap-2"
+          >
+            <Icons.user className={'text-muted-foreground h-auto'} />
+          </Link>
+        </li>
       </ul>
     </nav>
   )

@@ -5,7 +5,7 @@
     "image": "/me.png",
     "email": "imjesus.ds@gmail.com",
     "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
+    "url": "/imjesusc-resume.pdf",
     "summary": "A summary of John Doe…",
     "location": {
       "address": "",
@@ -81,9 +81,13 @@
     "name": "Web Development",
     "level": "Master",
     "keywords": [
-      "HTML",
+      "React",
+      "JavaScript",
+      "Next.js",
+      "Tailwind",
+      "Git",
       "CSS",
-      "JavaScript"
+      "HTML"
     ]
   }],
   "languages": [{
