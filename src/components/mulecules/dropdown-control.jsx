@@ -3,9 +3,12 @@
 import { cn } from '@/lib/utils'
 import { useEffect, useState } from 'react'
 
-export const DropdownControl = () => {
+export const DropdownControl = ({ lang }) => {
   const [viewOpenMenu, setViewOpenMenu] = useState(false)
-
+  const language = {
+    en: 'Press ⌘ J to open the command menu',
+    es: 'Presiona Ctrl + J para abrir el menu de comandos.',
+  }
   useEffect(() => {
     const handleScroll = () => {
       const windowHeight = window.innerHeight
@@ -28,11 +31,7 @@ export const DropdownControl = () => {
         viewOpenMenu ? 'opacity-100' : 'opacity-0',
       )}
     >
-      Press Cmd +
-      <span className="pointer-events-none border bg-accent rounded-md py-0.5 px-1">
-        <span className="text-xs">⌘</span>J
-      </span>
-      to open the command menu
+      {language[lang]}
     </div>
   )
 }

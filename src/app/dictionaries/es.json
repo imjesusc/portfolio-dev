@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jesus Cerdan Diaz",
-    "label": "Front-end Developer con 1 año de experiencia; Conocimientos sólidos en React, JavaScript, CSS, HTML.",
+    "label": "Desarrollador Front-end con 1 año de experiencia; Conocimientos sólidos en React, JavaScript, CSS, HTML.",
     "image": "/me.png",
     "email": "imjesus.ds@gmail.com",
     "phone": "(912) 555-4321",
     "url": "/imjesusc-resume.pdf",
-    "summary": "A summary of John Doe…",
+    "summary": "Un resumen de Jesús Cerdan…",
     "location": {
       "address": "",
       "postalCode": "",
@@ -16,70 +16,70 @@
     },
     "profiles": [{
       "network": "LinkedIn",
-      "username": "Jesus Cerdan",
-      "url": "https://www.linkedin.com/in/imjesusc/"
+      "username": "Jesús Cerdan",
+      "url": "https://www.linkedin.com/in/imjesus"
     },{
       "network": "Github",
-      "username": "Jesus Cerdan",
+      "username": "Jesús Cerdan",
       "url": "https://github.com/imjesusc"
     }]
   },
   "work": [{
-    "name": "Company",
-    "position": "President",
+    "name": "Compañía",
+    "position": "Presidente",
     "url": "https://company.com",
     "startDate": "2013-01-01",
     "endDate": "2014-01-01",
-    "summary": "Description…",
+    "summary": "Descripción…",
     "highlights": [
-      "Started the company"
+      "Fundó la compañía"
     ]
   }],
   "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
+    "organization": "Organización",
+    "position": "Voluntario",
     "url": "https://organization.com/",
     "startDate": "2012-01-01",
     "endDate": "2013-01-01",
-    "summary": "Description…",
+    "summary": "Descripción…",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
+      "Galardonado como 'Voluntario del Mes'"
     ]
   }],
   "education": [{
-    "institution": "University",
+    "institution": "Universidad",
     "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
+    "area": "Desarrollo de Software",
+    "studyType": "Licenciatura",
     "startDate": "2011-01-01",
     "endDate": "2013-01-01",
     "score": "4.0",
     "courses": [
-      "DB1101 - Basic SQL"
+      "DB1101 - SQL Básico"
     ]
   }],
   "awards": [{
-    "title": "Award",
+    "title": "Premio",
     "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
+    "awarder": "Compañía",
+    "summary": "No hay cuchara."
   }],
   "certificates": [{
-    "name": "Certificate",
+    "name": "Certificado",
     "date": "2021-11-07",
-    "issuer": "Company",
+    "issuer": "Compañía",
     "url": "https://certificate.com"
   }],
   "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
+    "name": "Publicación",
+    "publisher": "Compañía",
     "releaseDate": "2014-10-01",
     "url": "https://publication.com",
-    "summary": "Description…"
+    "summary": "Descripción…"
   }],
   "skills": [{
-    "name": "Web Development",
-    "level": "Master",
+    "name": "Desarrollo Web",
+    "level": "Experto",
     "keywords": [
       "React",
       "JavaScript",
@@ -91,42 +91,40 @@
     ]
   }],
   "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
+    "language": "Inglés",
+    "fluency": "Hablante nativo"
   }],
   "interests": [{
-    "name": "Wildlife",
+    "name": "Vida Silvestre",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
+      "Hurones",
+      "Unicornios"
     ]
   }],
   "references": [{
     "name": "Jane Doe",
-    "reference": "Reference…"
+    "reference": "Referencia…"
   }],
   "projects": [{
-    "name": "Slug Generator",
+    "name": "Generador de Slugs",
     "startDate": "2024-01-23",
     "endDate": "2024-02-03",
-    "description": "Acortador de URL de código abierto. Crea slugs personalizados de forma ilimitada. ",
+    "description": "Acortador de URL de código abierto. Crea slugs personalizados de forma ilimitada.",
     "highlights": [
-      "React", "TypeScript", "Tailwild", "Next.js", "Prisma", "Turso database"
+      "React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Base de datos Turso"
     ],
     "url": "https://slugs.vercel.app",
     "repo": "https://github.com/imjesusc/slug-generator"
-
   },{
     "name": "Page Link",
     "startDate": "2024-01-14",
     "endDate": "2024-01-15",
     "description": "Page Link te permite crear páginas de blocks de forma rápida y sencilla con un solo clic.",
     "highlights": [
-      "React", "Tailwild", "Vite"
+      "React", "Tailwind", "Vite"
     ],
     "url": "https://page-link-ds.vercel.app",
     "repo": "https://github.com/imjesusc/page-link"
-
   },
   {
     "name": "Ecommerce-Sanity-Stripe",
@@ -134,10 +132,9 @@
     "endDate": "2021-01-01",
     "description": "Ecommerse simple con Stripe y Sanity. Haz tu compra de manera rápida y sencilla.",
     "highlights": [
-      "React", "Tailwild", "Sanity", "Stripe"
+      "React", "Tailwind", "Sanity", "Stripe"
     ],
     "url": "https://sanity-stripe-ecommerse.vercel.app",
     "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
-
   }]
 }

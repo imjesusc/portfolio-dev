@@ -6,7 +6,7 @@ export const ProjectCard = ({ project }) => {
   return (
     <article
       key={project.name}
-      className="border rounded-xl p-4 flex flex-col shadow-[0_0_90px_0px_rgba(0,0,0,0.2)] gap-2"
+      className="border rounded-xl p-4 flex flex-col shadow-[0_0_90px_0px_rgba(0,0,0,0.2)] print:shadow-none gap-2"
     >
       <div className="flex items-center gap-2">
         <Link
@@ -18,7 +18,7 @@ export const ProjectCard = ({ project }) => {
         >
           <h3 className="font-semibold text-lg font-sans">{project.name}</h3>
         </Link>
-        <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#50e3c2]"></span>
+        <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#50e3c2]"></span>
 
         <Link href={project.repo} title="Repositorio">
           <Icons.github className="w-4 h-4 text-muted-foreground" />

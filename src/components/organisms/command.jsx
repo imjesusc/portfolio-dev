@@ -1,10 +1,10 @@
 import { DropdownControl, DropdownMenu } from '../mulecules'
 
-export const Command = ({ basics }) => {
+export const Command = ({ basics, lang }) => {
   return (
     <>
-      <DropdownControl />
-      <DropdownMenu basics={basics} />
+      <DropdownControl lang={lang} />
+      <DropdownMenu basics={basics} lang={lang} />
     </>
   )
 }

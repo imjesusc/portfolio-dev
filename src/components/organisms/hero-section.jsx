@@ -1,15 +1,23 @@
 import React from 'react'
 import { Icons } from '../ui'
 import { ProfileNav } from '../mulecules/profile-nav'
-import { FigureImg } from '../atoms/figure-img'
 
 export const HeroSection = ({ basics }) => {
-  const { name, label, image, location, profiles } = basics
+  const { name, label, location } = basics
   return (
     <header className="flex gap-6 justify-between">
-      <div className="max-w-[55%] flex flex-col gap-4">
-        <h1 className="text-8xl font-sans font-semibold">{name}</h1>
-        <h2 className="text-balance font-sans text-foreground/70">{label}</h2>
+      <div className="w-full  flex flex-col gap-4">
+        <h1 className="text-5xl tablet:text-8xl flex flex-col font-sans font-semibold print:hidden">
+          <span>{name.split(' ')[0]}</span>{' '}
+          <span>{name.split(' ').slice(1).join(' ')}</span>
+        </h1>
+
+        <h2 className="hidden print:block font-sans font-semibold print:text-5xl">
+          {name}
+        </h2>
+        <h2 className="text-pretty tablet:text-balance w-full tablet:max-w-[500px] font-sans text-foreground/70">
+          {label}
+        </h2>
         <div className="flex gap-2 text-muted-foreground text-sm items-center">
           <Icons.wordmap className="w-4 h-4" />
           <p>
@@ -17,16 +25,8 @@ export const HeroSection = ({ basics }) => {
           </p>
         </div>
 
-        <ProfileNav basics={basics} profiles={profiles} />
+        <ProfileNav basics={basics} />
       </div>
-
-      <FigureImg
-        className={
-          'shadow-[0_0_60px_30px_rgba(0,0,0,0.2)] rounded-xl w-40 h-40 overflow-hidden grayscale'
-        }
-        image={image}
-        name={name}
-      />
     </header>
   )
 }

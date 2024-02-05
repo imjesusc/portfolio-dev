@@ -1,9 +1,13 @@
 import { cn } from '@/lib/utils'
 
-export const Habilities = ({ skills }) => {
+export const Habilities = ({ skills, lang }) => {
+  const languages = {
+    es: 'Habilidades',
+    en: 'Skills',
+  }
   return (
     <section className="grid gap-6">
-      <h2 className="text-2xl font-sans font-semibold">Habilidades</h2>
+      <h2 className="text-2xl font-sans font-semibold">{languages[lang]}</h2>
       <div className="flex gap-2 flex-wrap">
         {skills?.keywords?.map((keyword) => (
           <p

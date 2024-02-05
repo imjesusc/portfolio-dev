@@ -1,23 +1,27 @@
 {
   "basics": {
     "name": "Jesus Cerdan Diaz",
-    "label": "Front-end developer con 1 año de experiencia; Conocimientos sólidos en React, JavaScript, CSS, HTML",
-    "image": "",
-    "email": "john@gmail.com",
+    "label": "Front-end Developer with 1 year of experience; Solid knowledge in React, JavaScript, CSS, HTML.",
+    "image": "/me.png",
+    "email": "imjesus.ds@gmail.com",
     "phone": "(912) 555-4321",
-    "url": "https://docs.google.com/document/d/16JQ3Dt658Fbha-wl7ks7mR-6yRsu7sTmkxK2_oyhP3Y/edit?usp=sharing",
-    "summary": "A summary of John Doe…",
+    "url": "/imjesusc-resume.pdf",
+    "summary": "A summary of Jesús Cerdan…",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "country": "Peru"
     },
     "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
+      "network": "LinkedIn",
+      "username": "Jesus Cerdan",
+      "url": "https://www.linkedin.com/in/imjesusc"
+    },{
+      "network": "Github",
+      "username": "Jesus Cerdan",
+      "url": "https://github.com/imjesusc"
     }]
   },
   "work": [{
@@ -77,9 +81,13 @@
     "name": "Web Development",
     "level": "Master",
     "keywords": [
-      "HTML",
+      "React",
+      "JavaScript",
+      "Next.js",
+      "Tailwind",
+      "Git",
       "CSS",
-      "JavaScript"
+      "HTML"
     ]
   }],
   "languages": [{
@@ -98,13 +106,35 @@
     "reference": "Reference…"
   }],
   "projects": [{
-    "name": "Project",
+    "name": "Slug Generator",
+    "startDate": "2024-01-23",
+    "endDate": "2024-02-03",
+    "description": "Open-source URL shortener. Create custom slugs unlimitedly.",
+    "highlights": [
+      "React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Turso database"
+    ],
+    "url": "https://slugs.vercel.app",
+    "repo": "https://github.com/imjesusc/slug-generator"
+  },{
+    "name": "Page Link",
+    "startDate": "2024-01-14",
+    "endDate": "2024-01-15",
+    "description": "Page Link allows you to create block pages quickly and easily with just one click.",
+    "highlights": [
+      "React", "Tailwind", "Vite"
+    ],
+    "url": "https://page-link-ds.vercel.app",
+    "repo": "https://github.com/imjesusc/page-link"
+  },
+  {
+    "name": "Ecommerce-Sanity-Stripe",
     "startDate": "2019-01-01",
     "endDate": "2021-01-01",
-    "description": "Description...",
+    "description": "Simple e-commerce with Stripe and Sanity. Make your purchase quickly and easily.",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "React", "Tailwind", "Sanity", "Stripe"
     ],
-    "url": "https://project.com/"
+    "url": "https://sanity-stripe-ecommerce.vercel.app",
+    "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
   }]
 }

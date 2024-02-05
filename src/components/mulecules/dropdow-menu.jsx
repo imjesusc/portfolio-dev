@@ -4,9 +4,22 @@ import { cn } from '@/lib/utils'
 import React, { useEffect, useRef, useState } from 'react'
 import { Icons } from '../ui'
 
-export const DropdownMenu = ({ basics }) => {
+export const DropdownMenu = ({ basics, lang }) => {
   const [open, setOpen] = useState(false)
   const menuRef = useRef(null)
+
+  const languages = {
+    es: {
+      actions: 'Acciones',
+      links: 'Enlaces',
+      print: 'Imprimir',
+    },
+    en: {
+      actions: 'Actions',
+      links: 'Links',
+      print: 'Print',
+    },
+  }
 
   const handleKeyDown = (e) => {
     if (e.key === 'j' && (e.metaKey || e.ctrlKey)) {
@@ -42,7 +55,9 @@ export const DropdownMenu = ({ basics }) => {
         )}
       >
         <div className="flex justify-between items-center">
-          <h4 className="font-sans font-semibold text-xl">Actions</h4>
+          <h4 className="font-sans font-semibold text-xl">
+            {languages[lang].actions}
+          </h4>
           <button onClick={() => setOpen(false)}>
             <Icons.close />
           </button>
@@ -54,10 +69,12 @@ export const DropdownMenu = ({ basics }) => {
           }}
           className="hover:bg-foreground/5 px-2 py-2 rounded-md font-mono text-start text-sm transition-colors -mx-2"
         >
-          Print
+          {languages[lang].print}
         </button>
 
-        <h4 className="font-sans font-semibold text-xl">Links</h4>
+        <h4 className="font-sans font-semibold text-xl">
+          {languages[lang].links}
+        </h4>
 
         <div className="flex flex-col">
           {basics?.profiles?.map((profile) => (

@@ -10,9 +10,9 @@ export default async function HomePage({ params }) {
     <>
       <main className="container py-20 flex flex-col gap-10">
         <HeroSection basics={dictionary.basics} />
-        <Proyectos projects={dictionary.projects} />
-        <Habilities skills={dictionary.skills[0]} />
-        <Command basics={dictionary.basics} />
+        <Proyectos projects={dictionary.projects} lang={params.lang} />
+        <Habilities skills={dictionary.skills[0]} lang={params.lang} />
+        <Command basics={dictionary.basics} lang={params.lang} />
       </main>
     </>
   )
