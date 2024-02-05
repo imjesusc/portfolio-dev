@@ -77,19 +77,22 @@
     "url": "https://publication.com",
     "summary": "Descripción…"
   }],
-  "skills": [{
-    "name": "Desarrollo Web",
-    "level": "Experto",
-    "keywords": [
-      "React",
-      "JavaScript",
-      "Next.js",
-      "Tailwind",
-      "Git",
-      "CSS",
-      "HTML"
-    ]
-  }],
+  "skills": {
+    "name": "Habilidades",
+    "skills": [{
+      "name": "Desarrollo Web",
+      "level": "Experto",
+      "keywords": [
+        "React",
+        "JavaScript",
+        "Next.js",
+        "Tailwind",
+        "Git",
+        "CSS",
+        "HTML"
+      ]
+    }]
+  },
   "languages": [{
     "language": "Inglés",
     "fluency": "Hablante nativo"
@@ -105,36 +108,78 @@
     "name": "Jane Doe",
     "reference": "Referencia…"
   }],
-  "projects": [{
-    "name": "Generador de Slugs",
-    "startDate": "2024-01-23",
-    "endDate": "2024-02-03",
-    "description": "Acortador de URL de código abierto. Crea slugs personalizados de forma ilimitada.",
-    "highlights": [
-      "React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Base de datos Turso"
-    ],
-    "url": "https://slugs.vercel.app",
-    "repo": "https://github.com/imjesusc/slug-generator"
-  },{
-    "name": "Page Link",
-    "startDate": "2024-01-14",
-    "endDate": "2024-01-15",
-    "description": "Page Link te permite crear páginas de blocks de forma rápida y sencilla con un solo clic.",
-    "highlights": [
-      "React", "Tailwind", "Vite"
-    ],
-    "url": "https://page-link-ds.vercel.app",
-    "repo": "https://github.com/imjesusc/page-link"
+  "projects": {
+    "name": "Proyectos",
+    "projects":[{
+      "name": "Generador de Slugs",
+      "startDate": "2024-01-23",
+      "endDate": "2024-02-03",
+      "description": "Acortador de URL de código abierto. Crea slugs personalizados de forma ilimitada.",
+      "highlights": [
+        "React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Base de datos Turso"
+      ],
+      "url": "https://slugs.vercel.app",
+      "repo": "https://github.com/imjesusc/slug-generator"
+    },{
+      "name": "Page Link",
+      "startDate": "2024-01-14",
+      "endDate": "2024-01-15",
+      "description": "Page Link te permite crear páginas de blocks de forma rápida y sencilla con un solo clic.",
+      "highlights": [
+        "React", "Tailwind", "Vite"
+      ],
+      "url": "https://page-link-ds.vercel.app",
+      "repo": "https://github.com/imjesusc/page-link"
+    },
+    {
+      "name": "Ecommerce-Sanity-Stripe",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Ecommerse simple con Stripe y Sanity. Haz tu compra de manera rápida y sencilla.",
+      "highlights": [
+        "React", "Tailwind", "Sanity", "Stripe"
+      ],
+      "url": "https://sanity-stripe-ecommerse.vercel.app",
+      "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
+    }]
   },
-  {
-    "name": "Ecommerce-Sanity-Stripe",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Ecommerse simple con Stripe y Sanity. Haz tu compra de manera rápida y sencilla.",
-    "highlights": [
-      "React", "Tailwind", "Sanity", "Stripe"
-    ],
-    "url": "https://sanity-stripe-ecommerse.vercel.app",
-    "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
-  }]
+  "crafts": {
+    "name": "Manualidades",
+    "crafts": [
+      {
+        "name": "Compare",
+        "link": "https://compare-ui.netlify.app",
+        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/compare",
+        "image": "/compare.gif",
+        "description": "Comparador de imágenes.",
+        "languages": ["CSS", "HTML", "JavaScript"]
+      },
+      {
+        "name": "Type Quote",
+        "link": "https://type-quote.netlify.app",
+        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/type-quote",
+        "image": "/type-qoute.gif",
+        "description": "Animación de tipeo de texto.",
+        "languages": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "name": "Backdrop Navbar",
+        "link": "https://navbar-drop.netlify.app",
+        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/navbar",
+        "image": "/navbar.gif",
+        "description": "Navbar animado según el cursor.",
+        "languages": ["React", "CSS"]
+      },
+      {
+        "name": "Mind Reader Troll",
+        "link": "https://mind-reader-troll.netlify.app/",
+        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/mind-reader",
+        "image": "/mind-reader.gif",
+        "description": "UI con animación de carga.",
+        "languages": ["JavaScript", "HTML", "CSS"]
+      }
+      
+    ]
+}
+
 }

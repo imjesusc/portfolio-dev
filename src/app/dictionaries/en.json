@@ -77,19 +77,22 @@
     "url": "https://publication.com",
     "summary": "Description…"
   }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "React",
-      "JavaScript",
-      "Next.js",
-      "Tailwind",
-      "Git",
-      "CSS",
-      "HTML"
-    ]
-  }],
+  "skills": {
+    "name": "Skills",
+    "skills": [{
+      "name": "Desarrollo Web",
+      "level": "Experto",
+      "keywords": [
+        "React",
+        "JavaScript",
+        "Next.js",
+        "Tailwind",
+        "Git",
+        "CSS",
+        "HTML"
+      ]
+    }]
+  },
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
@@ -105,36 +108,76 @@
     "name": "Jane Doe",
     "reference": "Reference…"
   }],
-  "projects": [{
-    "name": "Slug Generator",
-    "startDate": "2024-01-23",
-    "endDate": "2024-02-03",
-    "description": "Open-source URL shortener. Create custom slugs unlimitedly.",
-    "highlights": [
-      "React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Turso database"
-    ],
-    "url": "https://slugs.vercel.app",
-    "repo": "https://github.com/imjesusc/slug-generator"
-  },{
-    "name": "Page Link",
-    "startDate": "2024-01-14",
-    "endDate": "2024-01-15",
-    "description": "Page Link allows you to create block pages quickly and easily with just one click.",
-    "highlights": [
-      "React", "Tailwind", "Vite"
-    ],
-    "url": "https://page-link-ds.vercel.app",
-    "repo": "https://github.com/imjesusc/page-link"
+  "projects": {
+    "name": "Projects",
+    "projects":[{
+      "name": "Slug Generator",
+      "startDate": "2024-01-23",
+      "endDate": "2024-02-03",
+      "description": "Open-source URL shortener. Create custom slugs unlimitedly.",
+      "highlights": [
+        "React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Turso database"
+      ],
+      "url": "https://slugs.vercel.app",
+      "repo": "https://github.com/imjesusc/slug-generator"
+    },{
+      "name": "Page Link",
+      "startDate": "2024-01-14",
+      "endDate": "2024-01-15",
+      "description": "Page Link allows you to create block pages quickly and easily with just one click.",
+      "highlights": [
+        "React", "Tailwind", "Vite"
+      ],
+      "url": "https://page-link-ds.vercel.app",
+      "repo": "https://github.com/imjesusc/page-link"
+    },
+    {
+      "name": "Ecommerce-Sanity-Stripe",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Simple e-commerce with Stripe and Sanity. Make your purchase quickly and easily.",
+      "highlights": [
+        "React", "Tailwind", "Sanity", "Stripe"
+      ],
+      "url": "https://sanity-stripe-ecommerce.vercel.app",
+      "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
+    }]
   },
-  {
-    "name": "Ecommerce-Sanity-Stripe",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Simple e-commerce with Stripe and Sanity. Make your purchase quickly and easily.",
-    "highlights": [
-      "React", "Tailwind", "Sanity", "Stripe"
-    ],
-    "url": "https://sanity-stripe-ecommerce.vercel.app",
-    "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
-  }]
+  "crafts": {
+    "name": "Crafts",
+    "crafts": [
+      {
+        "name": "Compare",
+        "link": "https://compare-ui.netlify.app",
+        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/compare",
+        "image": "/compare.gif",
+        "description": "Image comparator.",
+        "languages": ["CSS", "HTML", "JavaScript"]
+      },
+      {
+        "name": "Type Quote",
+        "link": "https://type-quote.netlify.app",
+        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/type-quote",
+        "image": "/type-qoute.gif",
+        "description": "Text typing animation.",
+        "languages": ["JavaScript", "HTML", "CSS"]
+      },
+      {
+        "name": "Backdrop Navbar",
+        "link": "https://navbar-drop.netlify.app",
+        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/navbar",
+        "image": "/navbar.gif",
+        "description": "Navbar animated according to cursor.",
+        "languages": ["React", "CSS"]
+      },
+      {
+        "name": "Mind Reader Troll",
+        "link": "https://mind-reader-troll.netlify.app/",
+        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/mind-reader",
+        "image": "/mind-reader.gif",
+        "description": "UI with loading animation.",
+        "languages": ["JavaScript", "HTML", "CSS"]
+      }
+    ]
+  }
 }
