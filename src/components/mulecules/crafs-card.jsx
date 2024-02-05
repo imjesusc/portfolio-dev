@@ -6,13 +6,18 @@ export const CrafsCard = ({ craft }) => {
   return (
     <article
       className={cn(
+        'h-24',
         'border grid grid-cols-3 gap-3',
         'print:shadow-none rounded-xl p-2 transition-shadow',
         'shadow-[0_0_90px_0px_rgba(0,255,255,0.2)]',
       )}
     >
       <Link href={craft.link} target="_blank" rel="noreferrer">
-        <FigureImg image={craft.image} name={craft.name} />
+        <FigureImg
+          image={craft.image}
+          name={craft.name}
+          className={'h-20 w-full'}
+        />
       </Link>
       <div className="col-span-2 flex flex-col justify-between">
         <div className="flex items-center justify-between gap-2">
