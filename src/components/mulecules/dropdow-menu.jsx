@@ -1,11 +1,10 @@
 'use client'
 
 import { cn } from '@/lib/utils'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Icons } from '../ui'
 
-export const DropdownMenu = ({ basics, lang }) => {
-  const [open, setOpen] = useState(false)
+export const DropdownMenu = ({ basics, lang, setOpen, open }) => {
   const menuRef = useRef(null)
 
   const languages = {
@@ -21,20 +20,20 @@ export const DropdownMenu = ({ basics, lang }) => {
     },
   }
 
-  const handleKeyDown = (e) => {
-    if (e.key === 'j' && (e.metaKey || e.ctrlKey)) {
-      e.preventDefault()
-      setOpen((prevOpen) => !prevOpen)
-    }
-  }
-
-  const handleOutsideClick = (e) => {
-    if (menuRef.current && !menuRef.current.contains(e.target)) {
-      setOpen(false)
-    }
-  }
-
   useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'j' && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault()
+        setOpen((prevOpen) => !prevOpen)
+      }
+    }
+
+    const handleOutsideClick = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setOpen(false)
+      }
+    }
+
     document.addEventListener('keydown', handleKeyDown)
     document.addEventListener('mousedown', handleOutsideClick)
 
@@ -42,7 +41,7 @@ export const DropdownMenu = ({ basics, lang }) => {
       document.removeEventListener('keydown', handleKeyDown)
       document.removeEventListener('mousedown', handleOutsideClick)
     }
-  }, [])
+  }, [setOpen])
 
   return (
     <>

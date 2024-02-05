@@ -6,7 +6,6 @@ export const Proyectos = ({ projects, lang }) => {
     es: 'Proyectos',
     en: 'Projects',
   }
-  console.log(projects)
   return (
     <section className="grid gap-2">
       <h2 className="text-2xl font-sans font-semibold">{languages[lang]}</h2>

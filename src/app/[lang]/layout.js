@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Portfolio - Jesus Cerdan Diaz',
   description:
     'Front-end Developer con 1 año de experiencia; Conocimientos sólidos en React, JavaScript, CSS, HTML.',
+  icons: {
+    icon: '/favicon.svg?v=1',
+  },
 }
 
 export default function RootLayout({ children }) {
