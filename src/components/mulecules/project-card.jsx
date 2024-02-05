@@ -6,7 +6,7 @@ export const ProjectCard = ({ project }) => {
   return (
     <article
       key={project.name}
-      className="border rounded-xl p-4 flex flex-col shadow-[0_0_90px_0px_rgba(0,0,0,0.2)] print:shadow-none gap-2"
+      className="border rounded-xl p-4 flex flex-col shadow-[0_0_90px_0px_rgba(0,255,255,0.2)] print:shadow-none gap-2"
     >
       <div className="flex items-center gap-2">
         <Link
