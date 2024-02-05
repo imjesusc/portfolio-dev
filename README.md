@@ -1,5 +1,10 @@
 <div align="center">
-  <h2>Portafolio</h2>
+<div>
+    <h2>Portafolio</h2>
+
+ <img src="./public/favicon.svg"  width="50" /></div>
+</div>
+
 
 <div align="center">
   <img src="https://img.shields.io/badge/Next.js-000?logo=Next.js&logoColor=fff&style=flat" alt="Astro Badge" />
