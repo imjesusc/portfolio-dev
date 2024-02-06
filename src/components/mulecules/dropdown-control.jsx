@@ -32,7 +32,9 @@ export const DropdownControl = ({ lang, setOpen }) => {
           viewOpenMenu ? 'opacity-100' : 'opacity-0',
         )}
       >
-        {language[lang]}
+        <span className="text-muted-foreground dark:text-white">
+          {language[lang]}
+        </span>
       </div>
 
       <button

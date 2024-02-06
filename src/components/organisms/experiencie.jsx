@@ -31,7 +31,7 @@ export const Experiencie = ({ works, className }) => {
                           {name ?? 'Company'}
                         </strong>
                       </div>
-                      <span className="text-xs whitespace-nowrap text-muted-foreground">
+                      <span className="text-xs font-mono whitespace-nowrap text-muted-foreground">
                         {startDate ?? 'Today'}
                         {' - '}
                         {endDate ?? 'Present'}

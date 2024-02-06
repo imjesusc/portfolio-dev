@@ -1,20 +1,20 @@
-import React from 'react'
 import { Icons } from '../ui'
 import { ProfileNav } from '../mulecules/profile-nav'
 import { Title } from '../atoms/title'
+import { HandleTheme } from '../mulecules/handle-theme'
 
 export const HeroSection = ({ basics }) => {
   const { name, location, summary } = basics
   return (
     <header className="flex gap-6 justify-between">
       <div className="w-full  flex flex-col gap-4">
-        <Title
-          tag="h1"
-          className="text-5xl tablet:text-8xl flex flex-col font-sans font-semibold print:flex-row print:gap-2"
-        >
-          <span>{name.split(' ')[0]}</span>{' '}
-          <span>{name.split(' ').slice(1).join(' ')}</span>
-        </Title>
+        <div className="flex gap-2 justify-between">
+          <Title tag="h1">
+            <span>{name.split(' ')[0]}</span>{' '}
+            <span>{name.split(' ').slice(1).join(' ')}</span>
+          </Title>
+          <HandleTheme />
+        </div>
 
         <strong className="text-pretty tablet:text-balance tablet:max-w-[85%] font-medium font-sans text-muted-foreground">
           {summary}

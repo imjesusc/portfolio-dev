@@ -10,7 +10,7 @@ export const CrafsCard = ({ craft }) => {
       className={cn(
         'h-24',
         'border grid grid-cols-[auto_1fr] gap-3',
-        'rounded-xl p-2 transition-shadow',
+        'rounded-xl p-2 transition-shadow shadow-lg',
         ' overflow-hidden',
       )}
     >
@@ -24,7 +24,7 @@ export const CrafsCard = ({ craft }) => {
             target="_blank"
             rel="noreferrer"
             title="repo"
-            className="hover:underline"
+            className="hover:underline dark:text-white"
           >
             {name}
           </Link>
