@@ -22,7 +22,12 @@ export const HandleTheme = () => {
   }
   return (
     <div className="flex gap-4 items-start">
-      <button onClick={toggleTheme} className="shadow-sm rounded-md p-2">
+      <button
+        onClick={toggleTheme}
+        id="theme-toggle"
+        aria-label="Toggle Dark Mode"
+        className="shadow-sm rounded-md p-2"
+      >
         {theme === 'light' ? (
           <Icons.moon />
         ) : (

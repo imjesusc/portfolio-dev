@@ -1,4 +1,4 @@
-import { FigureImg } from '../atoms/figure-img'
+import { Figure } from '../atoms/figure'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
 import { Badge } from '../atoms/badge'
@@ -15,7 +15,7 @@ export const CrafsCard = ({ craft }) => {
       )}
     >
       <Link href={link} target="_blank" rel="noreferrer">
-        <FigureImg image={image} name={name} className={'h-20 w-32'} />
+        <Figure image={image} name={name} className={'h-20 w-32'} />
       </Link>
       <div className=" flex flex-col justify-between overflow-hidden">
         <div className="flex items-center justify-between gap-2">

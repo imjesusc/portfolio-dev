@@ -27,7 +27,7 @@ export const Experiencie = ({ works, className }) => {
                     <div className="flex items-start justify-between">
                       <div className="space-y-1">
                         <Title tag="h3" title={position ?? 'Front-end'} />
-                        <strong className="font-sans text-foreground/50">
+                        <strong className="font-sans text-foreground/60">
                           {name ?? 'Company'}
                         </strong>
                       </div>

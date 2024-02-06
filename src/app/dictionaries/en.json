@@ -170,7 +170,7 @@
 				"name": "Compare",
 				"link": "https://compare-ui.netlify.app",
 				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/compare",
-				"image": "/compare.gif",
+				"image": "/compare.mp4",
 				"description": "Image comparator.",
 				"languages": ["CSS", "HTML", "JavaScript"]
 			},
@@ -178,7 +178,7 @@
 				"name": "Type Quote",
 				"link": "https://type-quote.netlify.app",
 				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/type-quote",
-				"image": "/type-qoute.gif",
+				"image": "/type-qoute.mp4",
 				"description": "Text typing animation.",
 				"languages": ["JavaScript", "HTML", "CSS"]
 			},
@@ -186,7 +186,7 @@
 				"name": "Backdrop Navbar",
 				"link": "https://navbar-drop.netlify.app",
 				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/navbar",
-				"image": "/navbar.gif",
+				"image": "/navbar.mp4",
 				"description": "Animated navbar based on cursor movement.",
 				"languages": ["React", "CSS"]
 			},
@@ -194,7 +194,7 @@
 				"name": "Mind Reader Troll",
 				"link": "https://mind-reader-troll.netlify.app/",
 				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/mind-reader",
-				"image": "/mind-reader.gif",
+				"image": "/mind-reader.mp4",
 				"description": "UI with loading animation.",
 				"languages": ["JavaScript", "HTML", "CSS"]
 			}
