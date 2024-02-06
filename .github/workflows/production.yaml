@@ -37,6 +37,9 @@ jobs:
 
       - name: Install Dependencies
         run: pnpm install
+      
+      - name: Sitemap
+        run: pnpm run postbuild
 
       - name: Build
         run: pnpm run build

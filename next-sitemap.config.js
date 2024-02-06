@@ -1,8 +1,10 @@
 module.exports = {
-  siteUrl: 'http://localhost:3000/es',
+  siteUrl: 'https://imjesus-dev.vercel.app',
   generateRobotsTxt: true,
   excluede: ['/server-sitemap-index.xml'],
   robotsTxtOptions: {
-    additionalSitemaps: ['http://localhost:3000/es/server-sitemap-index.xml'],
+    additionalSitemaps: [
+      'https://imjesus-dev.vercel.app/server-sitemap-index.xml',
+    ],
   },
 }
