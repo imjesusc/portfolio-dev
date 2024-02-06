@@ -9,7 +9,9 @@ export const Education = ({ education }) => {
         {education &&
           education.educations.map((education) => (
             <div key={education.institution}>
-              <p className="text-sm font-mono">{education.institution}</p>
+              <p className="text-sm font-mono dark:text-white">
+                {education.institution}
+              </p>
               <p className="text-muted-foreground text-xs">
                 {education.endDate}
               </p>
