@@ -1,8 +1,10 @@
 import { FigureImg } from '../atoms/figure-img'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
+import { Badge } from '../atoms/badge'
 
 export const CrafsCard = ({ craft }) => {
+  const { name, description, link, image, repo, languages } = craft
   return (
     <article
       className={cn(
@@ -12,36 +14,27 @@ export const CrafsCard = ({ craft }) => {
         ' overflow-hidden',
       )}
     >
-      <Link href={craft.link} target="_blank" rel="noreferrer">
-        <FigureImg
-          image={craft.image}
-          name={craft.name}
-          className={'h-20 w-32'}
-        />
+      <Link href={link} target="_blank" rel="noreferrer">
+        <FigureImg image={image} name={name} className={'h-20 w-32'} />
       </Link>
       <div className=" flex flex-col justify-between overflow-hidden">
         <div className="flex items-center justify-between gap-2">
           <Link
-            href={craft.repo}
+            href={repo}
             target="_blank"
             rel="noreferrer"
             title="repo"
             className="hover:underline"
           >
-            {craft.name}
+            {name}
           </Link>
         </div>
         <p className="font-mono truncate text-xs text-foreground/60 h-5 overflow-hidden">
-          {craft.description}
+          {description}
         </p>
         <div className="flex gap-2 tablet:flex-wrap overflow-hidden">
-          {craft.languages.map((highlight) => (
-            <span
-              key={highlight}
-              className="text-xs bg-accent font-sans text-foreground/60 py-1 px-2 rounded-lg"
-            >
-              {highlight}
-            </span>
+          {languages?.map((highlight) => (
+            <Badge key={highlight} text={highlight} />
           ))}
         </div>
       </div>

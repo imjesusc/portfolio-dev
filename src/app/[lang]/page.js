@@ -25,7 +25,7 @@ export default async function HomePage({ params }) {
       <main className="container py-20 flex flex-col print:gap-6 gap-14">
         <HeroSection basics={dictionary.basics} />
         <Proyectos projects={dictionary.projects} />
-        <Experiencie works={dictionary.work} className={'hidden print:block'} />
+        <Experiencie works={dictionary.work} />
         <Habilities skills={dictionary.skills} />
         <Education education={dictionary.education} />
         <Crafts crafts={dictionary.crafts} />

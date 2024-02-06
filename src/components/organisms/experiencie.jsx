@@ -14,7 +14,6 @@ export const Experiencie = ({ works, className }) => {
           {worksList &&
             worksList.map((work) => {
               const {
-                company,
                 position,
                 name,
                 startDate,
@@ -23,9 +22,9 @@ export const Experiencie = ({ works, className }) => {
                 highlights,
               } = work
               return (
-                <li key={company} className="flex items-start">
+                <li key={name} className="flex items-start">
                   <div className="flex-1 space-y-2">
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-start justify-between">
                       <div className="space-y-1">
                         <Title tag="h3" title={position ?? 'Front-end'} />
                         <strong className="font-sans text-foreground/50">

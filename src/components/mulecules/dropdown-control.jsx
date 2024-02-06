@@ -27,7 +27,7 @@ export const DropdownControl = ({ lang, setOpen }) => {
     <>
       <div
         className={cn(
-          'border hidden tablet:flex rounded-md bg-background w-full items-center print:hidden gap-2 justify-center',
+          'hidden border-t tablet:flex rounded-md bg-background w-full items-center print:hidden gap-2 justify-center',
           'py-1 px-3 fixed bottom-0 left-0 font-mono text-sm transition-opacity duration-300',
           viewOpenMenu ? 'opacity-100' : 'opacity-0',
         )}
@@ -38,7 +38,7 @@ export const DropdownControl = ({ lang, setOpen }) => {
       <button
         onClick={() => setOpen(true)}
         className={cn(
-          'border rounded-md bg-background w-full flex items-center tablet:hidden  print:hidden gap-2 justify-center',
+          'border-t rounded-md bg-background w-full flex items-center tablet:hidden  print:hidden gap-2 justify-center',
           'py-1 px-3 fixed bottom-0 left-0 font-mono text-sm transition-opacity duration-300',
           viewOpenMenu ? 'opacity-100' : 'opacity-0',
         )}
