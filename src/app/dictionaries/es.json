@@ -6,7 +6,7 @@
     "email": "imjesus.ds@gmail.com",
     "phone": "(912) 555-4321",
     "url": "/imjesusc-resume.pdf",
-    "summary": "Un resumen de Jesús Cerdan…",
+    "summary": "Desarrollador Front-end dinámico con más de 1 año de experiencia. Especializado en el diseño y maquetado web, destacó por asegurar la adaptabilidad eficiente de las páginas según el dispositivo. Experiencia sólida en JavaScript, CSS, HTML y React.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,17 +24,27 @@
       "url": "https://github.com/imjesusc"
     }]
   },
-  "work": [{
-    "name": "Compañía",
-    "position": "Presidente",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Descripción…",
-    "highlights": [
-      "Fundó la compañía"
-    ]
-  }],
+  "work": {
+    "module": "Experiencia Laboral",
+    "works": [{
+      "name": "Online Jobs",
+      "position": "Front-end Developer",
+      "url": "https://company.com",
+      "startDate": "Noviembre 2023",
+      "endDate": "Presente",
+      "summary": "Descripción…",
+      "responsibilities": {
+        "module": "Responsabilidades",
+        "responsibilities": ["He desempeñado un rol crucial en la creación y diseño de la página web, enfocándose especialmente en su maquetado."]
+      },
+      "highlights": {
+        "module": "Logros clave",
+        "highlights": [
+          "Aseguré la adaptabilidad eficiente de la página web a diversos tamaños de pantalla, mejorando significativamente la accesibilidad."
+        ]
+      }
+    }]
+  },
   "volunteer": [{
     "organization": "Organización",
     "position": "Voluntario",
@@ -46,18 +56,21 @@
       "Galardonado como 'Voluntario del Mes'"
     ]
   }],
-  "education": [{
-    "institution": "Universidad",
-    "url": "https://institution.com/",
-    "area": "Desarrollo de Software",
-    "studyType": "Licenciatura",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - SQL Básico"
-    ]
-  }],
+  "education": {
+    "module": "Educación",
+    "educations": [{
+      "institution": "Oracle Next Education F2 T5 Front-end.",
+      "url": "https://app.aluracursos.com/user/inf-roycd/program/certificate",
+      "area": "Front-end Developer",
+      "studyType": "Developer",
+      "startDate": "2011-01-01",
+      "endDate": "Concluído el 30 de septiembre de 2023",
+      "score": "4.0",
+      "courses": [
+        "JavaScript", "React", "HTML", "CSS", "Git"
+      ]
+    }]
+  },
   "awards": [{
     "title": "Premio",
     "date": "2014-11-01",

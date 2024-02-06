@@ -6,7 +6,7 @@ export const ProjectCard = ({ project }) => {
   return (
     <article
       key={project.name}
-      className="border rounded-xl p-4 flex flex-col shadow-[0_0_90px_0px_rgba(0,255,255,0.2)] print:shadow-none gap-2"
+      className="border rounded-xl p-4 flex flex-col  gap-2"
     >
       <div className="flex items-center gap-2">
         <Link
@@ -16,7 +16,9 @@ export const ProjectCard = ({ project }) => {
           rel="noreferrer"
           className="hover:underline underline-offset-2"
         >
-          <h3 className="font-semibold text-lg font-sans">{project.name}</h3>
+          <h3 className="font-semibold text-lg font-sans h-7 overflow-hidden">
+            {project.name}
+          </h3>
         </Link>
         <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[#50e3c2]"></span>
 

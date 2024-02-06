@@ -6,7 +6,7 @@
     "email": "imjesus.ds@gmail.com",
     "phone": "(912) 555-4321",
     "url": "/imjesusc-resume.pdf",
-    "summary": "A summary of Jesús Cerdan…",
+    "summary": "Dynamic Front-end Developer with over 1 year of experience. Specialized in web design and layout, I excel in ensuring efficient adaptability of pages across devices. Solid experience in JavaScript, CSS, HTML, and React, dedicated to innovative web development.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,17 +24,28 @@
       "url": "https://github.com/imjesusc"
     }]
   },
-  "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
+ 
+"work": {
+  "module": "Work Experience",
+  "works": [{
+  "name": "Online Jobs",
+  "position": "Front-end Developer",
+  "url": "https://company.com",
+  "startDate": "November 2023",
+  "endDate": "Present",
+  "summary": "Description...",
+  "responsibilities": {
+  "module": "Responsibilities",
+  "responsibilities": ["Played a crucial role in creating and designing the website, with a special focus on its layout."]
+  },
+  "highlights": {
+  "module": "Key Achievements",
+  "highlights": [
+  "Ensured efficient adaptability of the website to various screen sizes, significantly improving accessibility."
+  ]
+  }
+  }]
+  },
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
@@ -46,18 +57,22 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
+  
+"education": {
+  "module": "Education",
+  "educations":[{
+    "institution": "Oracle Next Education F2 T5 Front-end.",
+    "url": "https://app.aluracursos.com/user/inf-roycd/program/certificate",
+    "area": "Front-end Developer",
+    "studyType": "Developer",
     "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
+    "endDate": "Completed on September 30, 2023",
     "score": "4.0",
     "courses": [
-      "DB1101 - Basic SQL"
+    "JavaScript", "React", "HTML", "CSS", "Git"
     ]
-  }],
+    }]
+},
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",

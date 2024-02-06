@@ -10,8 +10,7 @@ export const FigureImg = ({ image, name, className }) => {
         alt={name}
         width={300}
         height={300}
-        loading="lazy"
-        className="w-full h-full"
+        className="w-full h-full object-cover"
       />
     </figure>
   )

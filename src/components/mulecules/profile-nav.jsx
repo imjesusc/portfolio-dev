@@ -3,6 +3,7 @@ import { Icons } from '../ui'
 import Link from 'next/link'
 
 export const ProfileNav = ({ basics }) => {
+  const { email, profiles, url } = basics
   const icons = {
     github: <Icons.github className={'text-muted-foreground'} />,
     linkedin: <Icons.linkedin className={'text-muted-foreground'} />,
@@ -13,47 +14,49 @@ export const ProfileNav = ({ basics }) => {
       <ul className="flex gap-4 items-center">
         <li>
           <Link
-            href={`mailto:${basics.email}`}
-            title={basics.email}
+            href={`mailto:${email}`}
+            title={email}
             className="block p-2 border rounded-md hover:bg-accent backdrop-blur print:hidden"
           >
             <Icons.mail className={'text-muted-foreground'} />{' '}
-            <p className="sr-only">{basics.email}</p>
+            <p className="sr-only">{email}</p>
           </Link>
           <p className="hidden print:block text-xs text-muted-foreground">
-            {basics.email}
+            {email}
           </p>
         </li>
 
-        {basics.profiles.map((profile) => {
-          return (
-            <li key={profile.network}>
-              <Link
-                target="_blank"
-                rel="noreferrer"
-                href={profile.url}
-                title={
-                  profile.network.toLowerCase() === 'github'
-                    ? `Visitar el perfil de ${profile.username} en ${profile.network}`
-                    : profile.network
-                }
-                className="block p-2 border rounded-md hover:bg-accent backdrop-blur print:hidden"
-              >
-                {icons[profile.network.toLowerCase()]}
-                <p className="sr-only print:not-sr-only text-black">
-                  {profile.network}
+        {profiles &&
+          profiles.map((profile) => {
+            const { network, url, username } = profile
+            return (
+              <li key={network}>
+                <Link
+                  target="_blank"
+                  rel="noreferrer"
+                  href={url}
+                  title={
+                    network.toLowerCase() === 'github'
+                      ? `Visitar el perfil de ${username} en ${network}`
+                      : network
+                  }
+                  className="block p-2 border rounded-md hover:bg-accent backdrop-blur print:hidden"
+                >
+                  {icons[network.toLowerCase()]}
+                  <p className="sr-only print:not-sr-only text-black">
+                    {network}
+                  </p>
+                </Link>
+                <p className="hidden print:block text-xs text-muted-foreground">
+                  {url}
                 </p>
-              </Link>
-              <p className="hidden print:block text-xs text-muted-foreground">
-                {profile.url}
-              </p>
-            </li>
-          )
-        })}
+              </li>
+            )
+          })}
 
         <li>
           <Link
-            href={basics.url}
+            href={url}
             type="download"
             target="_blank"
             title={'CV'}
