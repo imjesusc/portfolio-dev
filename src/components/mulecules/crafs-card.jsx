@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils'
 import { Badge } from '../atoms/badge'
 
 export const CrafsCard = ({ craft }) => {
-  const { name, description, link, image, repo, languages } = craft
+  const { name, description, link, image, languages } = craft
   return (
     <article
       className={cn(
@@ -20,7 +20,7 @@ export const CrafsCard = ({ craft }) => {
       <div className=" flex flex-col justify-between overflow-hidden">
         <div className="flex items-center justify-between gap-2">
           <Link
-            href={repo}
+            href={link}
             target="_blank"
             rel="noreferrer"
             title="repo"
