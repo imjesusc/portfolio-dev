@@ -1,198 +1,203 @@
 {
-  "basics": {
-    "name": "Jesus Cerdan Diaz",
-    "label": "Front-end Developer with 1 year of experience; Solid knowledge in React, JavaScript, CSS, HTML.",
-    "image": "/me.png",
-    "email": "imjesus.ds@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "/imjesusc-resume.pdf",
-    "summary": "Dynamic Front-end Developer with over 1 year of experience. Specialized in web design and layout, I excel in ensuring efficient adaptability of pages across devices. Solid experience in JavaScript, CSS, HTML, and React, dedicated to innovative web development.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Lima",
-      "countryCode": "PE",
-      "country": "Peru"
-    },
-    "profiles": [{
-      "network": "LinkedIn",
-      "username": "Jesus Cerdan",
-      "url": "https://www.linkedin.com/in/imjesusc"
-    },{
-      "network": "Github",
-      "username": "Jesus Cerdan",
-      "url": "https://github.com/imjesusc"
-    }]
-  },
- 
-"work": {
-  "module": "Work Experience",
-  "works": [{
-  "name": "Online Jobs",
-  "position": "Front-end Developer",
-  "url": "https://company.com",
-  "startDate": "November 2023",
-  "endDate": "Present",
-  "summary": "Description...",
-  "responsibilities": {
-  "module": "Responsibilities",
-  "responsibilities": ["Played a crucial role in creating and designing the website, with a special focus on its layout."]
-  },
-  "highlights": {
-  "module": "Key Achievements",
-  "highlights": [
-  "Ensured efficient adaptability of the website to various screen sizes, significantly improving accessibility."
-  ]
-  }
-  }]
-  },
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  
-"education": {
-  "module": "Education",
-  "educations":[{
-    "institution": "Oracle Next Education F2 T5 Front-end.",
-    "url": "https://app.aluracursos.com/user/inf-roycd/program/certificate",
-    "area": "Front-end Developer",
-    "studyType": "Developer",
-    "startDate": "2011-01-01",
-    "endDate": "Completed on September 30, 2023",
-    "score": "4.0",
-    "courses": [
-    "JavaScript", "React", "HTML", "CSS", "Git"
-    ]
-    }]
-},
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": {
-    "name": "Skills",
-    "skills": [{
-      "name": "Desarrollo Web",
-      "level": "Experto",
-      "keywords": [
-        "React",
-        "JavaScript",
-        "Next.js",
-        "Tailwind",
-        "Git",
-        "CSS",
-        "HTML"
-      ]
-    }]
-  },
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": {
-    "name": "Projects",
-    "projects":[{
-      "name": "Slug Generator",
-      "startDate": "2024-01-23",
-      "endDate": "2024-02-03",
-      "description": "Open-source URL shortener. Create custom slugs unlimitedly.",
-      "highlights": [
-        "React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Turso database"
-      ],
-      "url": "https://slugs.vercel.app",
-      "repo": "https://github.com/imjesusc/slug-generator"
-    },{
-      "name": "Page Link",
-      "startDate": "2024-01-14",
-      "endDate": "2024-01-15",
-      "description": "Page Link allows you to create block pages quickly and easily with just one click.",
-      "highlights": [
-        "React", "Tailwind", "Vite"
-      ],
-      "url": "https://page-link-ds.vercel.app",
-      "repo": "https://github.com/imjesusc/page-link"
-    },
-    {
-      "name": "Ecommerce-Sanity-Stripe",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Simple e-commerce with Stripe and Sanity. Make your purchase quickly and easily.",
-      "highlights": [
-        "React", "Tailwind", "Sanity", "Stripe"
-      ],
-      "url": "https://sanity-stripe-ecommerce.vercel.app",
-      "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
-    }]
-  },
-  "crafts": {
-    "name": "Crafts",
-    "crafts": [
-      {
-        "name": "Compare",
-        "link": "https://compare-ui.netlify.app",
-        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/compare",
-        "image": "/compare.gif",
-        "description": "Image comparator.",
-        "languages": ["CSS", "HTML", "JavaScript"]
-      },
-      {
-        "name": "Type Quote",
-        "link": "https://type-quote.netlify.app",
-        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/type-quote",
-        "image": "/type-qoute.gif",
-        "description": "Text typing animation.",
-        "languages": ["JavaScript", "HTML", "CSS"]
-      },
-      {
-        "name": "Backdrop Navbar",
-        "link": "https://navbar-drop.netlify.app",
-        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/navbar",
-        "image": "/navbar.gif",
-        "description": "Navbar animated according to cursor.",
-        "languages": ["React", "CSS"]
-      },
-      {
-        "name": "Mind Reader Troll",
-        "link": "https://mind-reader-troll.netlify.app/",
-        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/mind-reader",
-        "image": "/mind-reader.gif",
-        "description": "UI with loading animation.",
-        "languages": ["JavaScript", "HTML", "CSS"]
-      }
-    ]
-  }
+	"basics": {
+		"name": "Jesus Cerdan Diaz",
+		"label": "Dynamic Front-end Developer with 1 year of experience; Strong knowledge in React, JavaScript, CSS, HTML.",
+		"image": "/me.png",
+		"email": "imjesus.ds@gmail.com",
+		"phone": "(912) 555-4321",
+		"url": "/imjesusc-resume.pdf",
+		"summary": "Dynamic Front-end Developer with over 1 year of experience. Specialized in web design and layout, excelling in ensuring efficient adaptability of pages according to the device. Solid experience in JavaScript, CSS, HTML, and React.",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Lima",
+			"countryCode": "PE",
+			"country": "Peru"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "Jesús Cerdan",
+				"url": "https://www.linkedin.com/in/imjesus"
+			},
+			{
+				"network": "Github",
+				"username": "Jesús Cerdan",
+				"url": "https://github.com/imjesusc"
+			}
+		]
+	},
+	"work": {
+		"module": "Work Experience",
+		"works": [
+			{
+				"name": "Online Jobs",
+				"position": "Front-end Developer",
+				"url": "https://company.com",
+				"startDate": "November 2023",
+				"endDate": "Present",
+				"summary": "Description...",
+				"responsibilities": {
+					"module": "Responsibilities",
+					"responsibilities": [
+						"Played a crucial role in creating and designing the website, with a special focus on its layout."
+					]
+				},
+				"highlights": {
+					"module": "Key Achievements",
+					"highlights": [
+						"Ensured efficient adaptability of the website to various screen sizes, significantly improving accessibility."
+					]
+				}
+			}
+		]
+	},
+	"volunteer": [
+		{
+			"organization": "Organization",
+			"position": "Volunteer",
+			"url": "https://organization.com/",
+			"startDate": "2012-01-01",
+			"endDate": "2013-01-01",
+			"summary": "Description...",
+			"highlights": ["Awarded as 'Volunteer of the Month'"]
+		}
+	],
+	"education": {
+		"module": "Education",
+		"educations": [
+			{
+				"institution": "Oracle Next Education F2 T5 Front-end.",
+				"url": "https://app.aluracursos.com/user/inf-roycd/program/certificate",
+				"area": "Front-end Developer",
+				"studyType": "Developer",
+				"startDate": "2011-01-01",
+				"endDate": "Completed on September 30, 2023",
+				"score": "4.0",
+				"courses": ["JavaScript", "React", "HTML", "CSS", "Git"]
+			}
+		]
+	},
+	"awards": [
+		{
+			"title": "Award",
+			"date": "2014-11-01",
+			"awarder": "Company",
+			"summary": "There is no spoon."
+		}
+	],
+	"certificates": [
+		{
+			"name": "Certificate",
+			"date": "2021-11-07",
+			"issuer": "Company",
+			"url": "https://certificate.com"
+		}
+	],
+	"publications": [
+		{
+			"name": "Publication",
+			"publisher": "Company",
+			"releaseDate": "2014-10-01",
+			"url": "https://publication.com",
+			"summary": "Description..."
+		}
+	],
+	"skills": {
+		"name": "Skills",
+		"skills": [
+			{
+				"name": "Web Development",
+				"level": "Expert",
+				"keywords": ["React", "JavaScript", "Next.js", "Tailwind", "Git", "CSS", "HTML"]
+			}
+		]
+	},
+	"languages": [
+		{
+			"language": "English",
+			"fluency": "Native Speaker"
+		}
+	],
+	"interests": [
+		{
+			"name": "Wildlife",
+			"keywords": ["Ferrets", "Unicorns"]
+		}
+	],
+	"references": [
+		{
+			"name": "Jane Doe",
+			"reference": "Reference..."
+		}
+	],
+	"projects": {
+		"name": "Projects",
+		"projects": [
+			{
+				"name": "Slug Generator",
+				"startDate": "2024-01-23",
+				"endDate": "2024-02-03",
+				"description": "Open-source URL shortener. Creates custom slugs unlimitedly.",
+				"highlights": ["React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Turso Database"],
+				"url": "https://slugs.vercel.app",
+				"repo": "https://github.com/imjesusc/slug-generator"
+			},
+			{
+				"name": "Page Link",
+				"startDate": "2024-01-14",
+				"endDate": "2024-01-15",
+				"description": "Page Link allows you to create block pages quickly and easily with just one click.",
+				"highlights": ["React", "Tailwind", "Vite"],
+				"url": "https://page-link-ds.vercel.app",
+				"repo": "https://github.com/imjesusc/page-link"
+			},
+			{
+				"name": "Ecommerce-Sanity-Stripe",
+				"startDate": "2019-01-01",
+				"endDate": "2021-01-01",
+				"description": "Simple e-commerce with Stripe and Sanity. Make your purchase quickly and easily.",
+				"highlights": ["React", "Tailwind", "Sanity", "Stripe"],
+				"url": "https://sanity-stripe-ecommerce.vercel.app",
+				"repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
+			}
+		]
+	},
+	"crafts": {
+		"name": "Crafts",
+		"crafts": [
+			{
+				"name": "Compare",
+				"link": "https://compare-ui.netlify.app",
+				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/compare",
+				"image": "/compare.gif",
+				"description": "Image comparator.",
+				"languages": ["CSS", "HTML", "JavaScript"]
+			},
+			{
+				"name": "Type Quote",
+				"link": "https://type-quote.netlify.app",
+				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/type-quote",
+				"image": "/type-qoute.gif",
+				"description": "Text typing animation.",
+				"languages": ["JavaScript", "HTML", "CSS"]
+			},
+			{
+				"name": "Backdrop Navbar",
+				"link": "https://navbar-drop.netlify.app",
+				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/navbar",
+				"image": "/navbar.gif",
+				"description": "Animated navbar based on cursor movement.",
+				"languages": ["React", "CSS"]
+			},
+			{
+				"name": "Mind Reader Troll",
+				"link": "https://mind-reader-troll.netlify.app/",
+				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/mind-reader",
+				"image": "/mind-reader.gif",
+				"description": "UI with loading animation.",
+				"languages": ["JavaScript", "HTML", "CSS"]
+			}
+		]
+	}
 }

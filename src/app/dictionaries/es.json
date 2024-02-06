@@ -1,198 +1,203 @@
 {
-  "basics": {
-    "name": "Jesus Cerdan Diaz",
-    "label": "Desarrollador Front-end con 1 año de experiencia; Conocimientos sólidos en React, JavaScript, CSS, HTML.",
-    "image": "/me.png",
-    "email": "imjesus.ds@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "/imjesusc-resume.pdf",
-    "summary": "Desarrollador Front-end dinámico con más de 1 año de experiencia. Especializado en el diseño y maquetado web, destacó por asegurar la adaptabilidad eficiente de las páginas según el dispositivo. Experiencia sólida en JavaScript, CSS, HTML y React.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Lima",
-      "countryCode": "PE",
-      "country": "Perú"
-    },
-    "profiles": [{
-      "network": "LinkedIn",
-      "username": "Jesús Cerdan",
-      "url": "https://www.linkedin.com/in/imjesus"
-    },{
-      "network": "Github",
-      "username": "Jesús Cerdan",
-      "url": "https://github.com/imjesusc"
-    }]
-  },
-  "work": {
-    "module": "Experiencia Laboral",
-    "works": [{
-      "name": "Online Jobs",
-      "position": "Front-end Developer",
-      "url": "https://company.com",
-      "startDate": "Noviembre 2023",
-      "endDate": "Presente",
-      "summary": "Descripción…",
-      "responsibilities": {
-        "module": "Responsabilidades",
-        "responsibilities": ["He desempeñado un rol crucial en la creación y diseño de la página web, enfocándose especialmente en su maquetado."]
-      },
-      "highlights": {
-        "module": "Logros clave",
-        "highlights": [
-          "Aseguré la adaptabilidad eficiente de la página web a diversos tamaños de pantalla, mejorando significativamente la accesibilidad."
-        ]
-      }
-    }]
-  },
-  "volunteer": [{
-    "organization": "Organización",
-    "position": "Voluntario",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Descripción…",
-    "highlights": [
-      "Galardonado como 'Voluntario del Mes'"
-    ]
-  }],
-  "education": {
-    "module": "Educación",
-    "educations": [{
-      "institution": "Oracle Next Education F2 T5 Front-end.",
-      "url": "https://app.aluracursos.com/user/inf-roycd/program/certificate",
-      "area": "Front-end Developer",
-      "studyType": "Developer",
-      "startDate": "2011-01-01",
-      "endDate": "Concluído el 30 de septiembre de 2023",
-      "score": "4.0",
-      "courses": [
-        "JavaScript", "React", "HTML", "CSS", "Git"
-      ]
-    }]
-  },
-  "awards": [{
-    "title": "Premio",
-    "date": "2014-11-01",
-    "awarder": "Compañía",
-    "summary": "No hay cuchara."
-  }],
-  "certificates": [{
-    "name": "Certificado",
-    "date": "2021-11-07",
-    "issuer": "Compañía",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publicación",
-    "publisher": "Compañía",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Descripción…"
-  }],
-  "skills": {
-    "name": "Habilidades",
-    "skills": [{
-      "name": "Desarrollo Web",
-      "level": "Experto",
-      "keywords": [
-        "React",
-        "JavaScript",
-        "Next.js",
-        "Tailwind",
-        "Git",
-        "CSS",
-        "HTML"
-      ]
-    }]
-  },
-  "languages": [{
-    "language": "Inglés",
-    "fluency": "Hablante nativo"
-  }],
-  "interests": [{
-    "name": "Vida Silvestre",
-    "keywords": [
-      "Hurones",
-      "Unicornios"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Referencia…"
-  }],
-  "projects": {
-    "name": "Proyectos",
-    "projects":[{
-      "name": "Generador de Slugs",
-      "startDate": "2024-01-23",
-      "endDate": "2024-02-03",
-      "description": "Acortador de URL de código abierto. Crea slugs personalizados de forma ilimitada.",
-      "highlights": [
-        "React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Base de datos Turso"
-      ],
-      "url": "https://slugs.vercel.app",
-      "repo": "https://github.com/imjesusc/slug-generator"
-    },{
-      "name": "Page Link",
-      "startDate": "2024-01-14",
-      "endDate": "2024-01-15",
-      "description": "Page Link te permite crear páginas de blocks de forma rápida y sencilla con un solo clic.",
-      "highlights": [
-        "React", "Tailwind", "Vite"
-      ],
-      "url": "https://page-link-ds.vercel.app",
-      "repo": "https://github.com/imjesusc/page-link"
-    },
-    {
-      "name": "Ecommerce-Sanity-Stripe",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Ecommerse simple con Stripe y Sanity. Haz tu compra de manera rápida y sencilla.",
-      "highlights": [
-        "React", "Tailwind", "Sanity", "Stripe"
-      ],
-      "url": "https://sanity-stripe-ecommerse.vercel.app",
-      "repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
-    }]
-  },
-  "crafts": {
-    "name": "Manualidades",
-    "crafts": [
-      {
-        "name": "Compare",
-        "link": "https://compare-ui.netlify.app",
-        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/compare",
-        "image": "/compare.gif",
-        "description": "Comparador de imágenes.",
-        "languages": ["CSS", "HTML", "JavaScript"]
-      },
-      {
-        "name": "Type Quote",
-        "link": "https://type-quote.netlify.app",
-        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/type-quote",
-        "image": "/type-qoute.gif",
-        "description": "Animación de tipeo de texto.",
-        "languages": ["JavaScript", "HTML", "CSS"]
-      },
-      {
-        "name": "Backdrop Navbar",
-        "link": "https://navbar-drop.netlify.app",
-        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/navbar",
-        "image": "/navbar.gif",
-        "description": "Navbar animado según el cursor.",
-        "languages": ["React", "CSS"]
-      },
-      {
-        "name": "Mind Reader Troll",
-        "link": "https://mind-reader-troll.netlify.app/",
-        "repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/mind-reader",
-        "image": "/mind-reader.gif",
-        "description": "UI con animación de carga.",
-        "languages": ["JavaScript", "HTML", "CSS"]
-      }
-      
-    ]
-}
-
+	"basics": {
+		"name": "Jesus Cerdan Diaz",
+		"label": "Desarrollador Front-end con 1 año de experiencia; Conocimientos sólidos en React, JavaScript, CSS, HTML.",
+		"image": "/me.png",
+		"email": "imjesus.ds@gmail.com",
+		"phone": "(912) 555-4321",
+		"url": "/imjesusc-resume.pdf",
+		"summary": "Desarrollador Front-end dinámico con más de 1 año de experiencia. Especializado en el diseño y maquetado web, destacó por asegurar la adaptabilidad eficiente de las páginas según el dispositivo. Experiencia sólida en JavaScript, CSS, HTML y React.",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Lima",
+			"countryCode": "PE",
+			"country": "Perú"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "Jesús Cerdan",
+				"url": "https://www.linkedin.com/in/imjesus"
+			},
+			{
+				"network": "Github",
+				"username": "Jesús Cerdan",
+				"url": "https://github.com/imjesusc"
+			}
+		]
+	},
+	"work": {
+		"module": "Experiencia Laboral",
+		"works": [
+			{
+				"name": "Online Jobs",
+				"position": "Front-end Developer",
+				"url": "https://company.com",
+				"startDate": "Noviembre 2023",
+				"endDate": "Presente",
+				"summary": "Descripción…",
+				"responsibilities": {
+					"module": "Responsabilidades",
+					"responsibilities": [
+						"He desempeñado un rol crucial en la creación y diseño de la página web, enfocándose especialmente en su maquetado."
+					]
+				},
+				"highlights": {
+					"module": "Logros clave",
+					"highlights": [
+						"Aseguré la adaptabilidad eficiente de la página web a diversos tamaños de pantalla, mejorando significativamente la accesibilidad."
+					]
+				}
+			}
+		]
+	},
+	"volunteer": [
+		{
+			"organization": "Organización",
+			"position": "Voluntario",
+			"url": "https://organization.com/",
+			"startDate": "2012-01-01",
+			"endDate": "2013-01-01",
+			"summary": "Descripción…",
+			"highlights": ["Galardonado como 'Voluntario del Mes'"]
+		}
+	],
+	"education": {
+		"module": "Educación",
+		"educations": [
+			{
+				"institution": "Oracle Next Education F2 T5 Front-end.",
+				"url": "https://app.aluracursos.com/user/inf-roycd/program/certificate",
+				"area": "Front-end Developer",
+				"studyType": "Developer",
+				"startDate": "2011-01-01",
+				"endDate": "Concluído el 30 de septiembre de 2023",
+				"score": "4.0",
+				"courses": ["JavaScript", "React", "HTML", "CSS", "Git"]
+			}
+		]
+	},
+	"awards": [
+		{
+			"title": "Premio",
+			"date": "2014-11-01",
+			"awarder": "Compañía",
+			"summary": "No hay cuchara."
+		}
+	],
+	"certificates": [
+		{
+			"name": "Certificado",
+			"date": "2021-11-07",
+			"issuer": "Compañía",
+			"url": "https://certificate.com"
+		}
+	],
+	"publications": [
+		{
+			"name": "Publicación",
+			"publisher": "Compañía",
+			"releaseDate": "2014-10-01",
+			"url": "https://publication.com",
+			"summary": "Descripción…"
+		}
+	],
+	"skills": {
+		"name": "Habilidades",
+		"skills": [
+			{
+				"name": "Desarrollo Web",
+				"level": "Experto",
+				"keywords": ["React", "JavaScript", "Next.js", "Tailwind", "Git", "CSS", "HTML"]
+			}
+		]
+	},
+	"languages": [
+		{
+			"language": "Inglés",
+			"fluency": "Hablante nativo"
+		}
+	],
+	"interests": [
+		{
+			"name": "Vida Silvestre",
+			"keywords": ["Hurones", "Unicornios"]
+		}
+	],
+	"references": [
+		{
+			"name": "Jane Doe",
+			"reference": "Referencia…"
+		}
+	],
+	"projects": {
+		"name": "Proyectos",
+		"projects": [
+			{
+				"name": "Generador de Slugs",
+				"startDate": "2024-01-23",
+				"endDate": "2024-02-03",
+				"description": "Acortador de URL de código abierto. Crea slugs personalizados de forma ilimitada.",
+				"highlights": ["React", "TypeScript", "Tailwind", "Next.js", "Prisma", "Base de datos Turso"],
+				"url": "https://slugs.vercel.app",
+				"repo": "https://github.com/imjesusc/slug-generator"
+			},
+			{
+				"name": "Page Link",
+				"startDate": "2024-01-14",
+				"endDate": "2024-01-15",
+				"description": "Page Link te permite crear páginas de blocks de forma rápida y sencilla con un solo clic.",
+				"highlights": ["React", "Tailwind", "Vite"],
+				"url": "https://page-link-ds.vercel.app",
+				"repo": "https://github.com/imjesusc/page-link"
+			},
+			{
+				"name": "Ecommerce-Sanity-Stripe",
+				"startDate": "2019-01-01",
+				"endDate": "2021-01-01",
+				"description": "Ecommerse simple con Stripe y Sanity. Haz tu compra de manera rápida y sencilla.",
+				"highlights": ["React", "Tailwind", "Sanity", "Stripe"],
+				"url": "https://sanity-stripe-ecommerce.vercel.app",
+				"repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
+			}
+		]
+	},
+	"crafts": {
+		"name": "Manualidades",
+		"crafts": [
+			{
+				"name": "Compare",
+				"link": "https://compare-ui.netlify.app",
+				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/compare",
+				"image": "/compare.gif",
+				"description": "Comparador de imágenes.",
+				"languages": ["CSS", "HTML", "JavaScript"]
+			},
+			{
+				"name": "Type Quote",
+				"link": "https://type-quote.netlify.app",
+				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/type-quote",
+				"image": "/type-qoute.gif",
+				"description": "Animación de tipeo de texto.",
+				"languages": ["JavaScript", "HTML", "CSS"]
+			},
+			{
+				"name": "Backdrop Navbar",
+				"link": "https://navbar-drop.netlify.app",
+				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/navbar",
+				"image": "/navbar.gif",
+				"description": "Navbar animado según el cursor.",
+				"languages": ["React", "CSS"]
+			},
+			{
+				"name": "Mind Reader Troll",
+				"link": "https://mind-reader-troll.netlify.app/",
+				"repo": "https://github.com/imjesusc/crafts-monorepo/tree/main/projects/mind-reader",
+				"image": "/mind-reader.gif",
+				"description": "UI con animación de carga.",
+				"languages": ["JavaScript", "HTML", "CSS"]
+			}
+		]
+	}
 }
