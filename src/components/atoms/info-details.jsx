@@ -1,5 +1,4 @@
 export const InfoDetails = ({ title, details }) => {
-  console.log(title, details)
   return (
     <div>
       <h3 className="text-sm font-mono">{title}</h3>
