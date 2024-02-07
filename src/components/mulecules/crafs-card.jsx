@@ -15,7 +15,11 @@ export const CrafsCard = ({ craft }) => {
       )}
     >
       <Link href={link} target="_blank" rel="noreferrer" title="View">
-        <Figure image={image} name={name} className={'h-20 w-32'} />
+        <Figure
+          image={image}
+          name={name}
+          className={'h-20 w-32 rounded-md overflow-hidden'}
+        />
       </Link>
       <div className=" flex flex-col justify-between overflow-hidden">
         <div className="flex items-center justify-between gap-2">
