@@ -24,7 +24,7 @@ export const DropdownControl = ({ lang, setOpen }) => {
     window.addEventListener('scroll', handleScroll)
   }, [])
   return (
-    <>
+    <div>
       <div
         className={cn(
           'hidden border-t tablet:flex rounded-md bg-background w-full items-center print:hidden gap-2 justify-center',
@@ -41,12 +41,12 @@ export const DropdownControl = ({ lang, setOpen }) => {
         onClick={() => setOpen(true)}
         className={cn(
           'border-t rounded-md bg-background w-full flex items-center tablet:hidden  print:hidden gap-2 justify-center',
-          'py-1 px-3 fixed bottom-0 left-0 font-mono text-sm transition-opacity duration-300',
+          'py-1 px-3 fixed bottom-0 left-0 font-mono dark:text-white text-sm transition-opacity duration-300',
           viewOpenMenu ? 'opacity-100' : 'opacity-0',
         )}
       >
-        ⌘
+        Options ⌘
       </button>
-    </>
+    </div>
   )
 }

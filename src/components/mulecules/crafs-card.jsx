@@ -14,7 +14,7 @@ export const CrafsCard = ({ craft }) => {
         ' overflow-hidden',
       )}
     >
-      <Link href={link} target="_blank" rel="noreferrer">
+      <Link href={link} target="_blank" rel="noreferrer" title="View">
         <Figure image={image} name={name} className={'h-20 w-32'} />
       </Link>
       <div className=" flex flex-col justify-between overflow-hidden">
@@ -23,13 +23,13 @@ export const CrafsCard = ({ craft }) => {
             href={link}
             target="_blank"
             rel="noreferrer"
-            title="repo"
+            title="View"
             className="hover:underline dark:text-white"
           >
             {name}
           </Link>
         </div>
-        <p className="font-mono truncate text-xs text-foreground/60 h-5 overflow-hidden">
+        <p className="font-mono truncate text-xs text-foreground/60 overflow-hidden">
           {description}
         </p>
         <div className="flex gap-2 tablet:flex-wrap overflow-hidden">

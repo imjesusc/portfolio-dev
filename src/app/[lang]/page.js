@@ -22,8 +22,8 @@ export default async function HomePage({ params }) {
 
   return (
     <>
-      <main className="container py-20 flex flex-col print:gap-6 gap-14">
-        <HeroSection basics={dictionary.basics} />
+      <main className="container py-10 tablet:py-20 flex flex-col print:gap-6 gap-14">
+        <HeroSection basics={dictionary.basics} lang={params.lang} />
         <Proyectos projects={dictionary.projects} />
         <Experiencie works={dictionary.work} />
         <Habilities skills={dictionary.skills} />

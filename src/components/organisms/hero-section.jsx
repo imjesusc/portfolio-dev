@@ -3,7 +3,7 @@ import { ProfileNav } from '../mulecules/profile-nav'
 import { Title } from '../atoms/title'
 import { HandleTheme } from '../mulecules/handle-theme'
 
-export const HeroSection = ({ basics }) => {
+export const HeroSection = ({ basics, lang }) => {
   const { name, location, summary } = basics
   return (
     <header className="flex gap-6 justify-between">
@@ -16,7 +16,7 @@ export const HeroSection = ({ basics }) => {
           <HandleTheme />
         </div>
 
-        <strong className="text-pretty tablet:text-balance tablet:max-w-[85%] font-medium font-sans text-muted-foreground">
+        <strong className="text-pretty tablet:text-balance tablet:max-w-[70ch] font-medium font-sans text-muted-foreground">
           {summary}
         </strong>
         <div className="flex gap-2 text-muted-foreground text-sm items-center">
@@ -26,7 +26,7 @@ export const HeroSection = ({ basics }) => {
           </p>
         </div>
 
-        <ProfileNav basics={basics} />
+        <ProfileNav basics={basics} lang={lang} />
       </div>
     </header>
   )

@@ -19,7 +19,7 @@ export const ProjectCard = ({ project }) => {
           rel="noreferrer"
           className="hover:underline underline-offset-2 dark:text-white"
         >
-          <Title tag={'h3'} title={name} />
+          <Title tag={'h3'} text={name} />
         </Link>
 
         <Link href={repo} title="Github">

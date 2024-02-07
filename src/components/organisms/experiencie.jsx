@@ -2,12 +2,13 @@ import React from 'react'
 import { InfoDetails } from '../atoms/info-details'
 import { Title } from '../atoms/title'
 import { cn } from '@/lib/utils'
+import { Badge } from '../atoms/badge'
 
 export const Experiencie = ({ works, className }) => {
   const { works: worksList, module } = works
   return (
     <section className={cn('grid gap-2', className)}>
-      <Title tag="h2" title={module ?? 'Experiencia'} />
+      <Title tag="h2" text={module ?? 'Experiencia'} />
 
       <div>
         <ul className="grid gap-4">
@@ -24,18 +25,27 @@ export const Experiencie = ({ works, className }) => {
               return (
                 <li key={name} className="flex items-start">
                   <div className="flex-1 space-y-2">
-                    <div className="flex items-start justify-between">
-                      <div className="space-y-1">
-                        <Title tag="h3" title={position ?? 'Front-end'} />
-                        <strong className="font-sans text-foreground/60">
+                    <div className="flex gap-1 flex-col items-start">
+                      <div className="flex gap-4">
+                        <Title
+                          tag="h3"
+                          text={position ?? 'Front-end'}
+                          className={'font-sans'}
+                          title="Position"
+                        />
+                        <Title
+                          tag={'h3'}
+                          className="font-sans font-black text-foreground/60  dark:text-foreground/60"
+                          title="Company"
+                        >
                           {name ?? 'Company'}
-                        </strong>
+                        </Title>
                       </div>
-                      <span className="text-xs font-mono whitespace-nowrap text-muted-foreground">
+                      <Badge aria-label="Date">
                         {startDate ?? 'Today'}
                         {' - '}
                         {endDate ?? 'Present'}
-                      </span>
+                      </Badge>
                     </div>
                     <div className="grid gap-2">
                       <InfoDetails

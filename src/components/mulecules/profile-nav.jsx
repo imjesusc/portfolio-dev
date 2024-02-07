@@ -2,11 +2,22 @@ import React from 'react'
 import { Icons } from '../ui'
 import Link from 'next/link'
 
-export const ProfileNav = ({ basics }) => {
-  const { email, profiles, url } = basics
+export const ProfileNav = ({ basics, lang }) => {
+  const { email, profiles, name, url } = basics
   const icons = {
     github: <Icons.github className={'text-muted-foreground'} />,
     linkedin: <Icons.linkedin className={'text-muted-foreground'} />,
+  }
+
+  const dictionary = {
+    en: {
+      github: 'Visit Github of ' + name,
+      cv: 'Download CV',
+    },
+    es: {
+      github: 'Visitar el Github de ' + name,
+      cv: 'Descargar CV',
+    },
   }
 
   return (
@@ -28,7 +39,7 @@ export const ProfileNav = ({ basics }) => {
 
         {profiles &&
           profiles.map((profile) => {
-            const { network, url, username } = profile
+            const { network, url } = profile
             return (
               <li key={network}>
                 <Link
@@ -37,7 +48,7 @@ export const ProfileNav = ({ basics }) => {
                   href={url}
                   title={
                     network.toLowerCase() === 'github'
-                      ? `Visitar el perfil de ${username} en ${network}`
+                      ? dictionary[lang].github
                       : network
                   }
                   className="block p-2 border rounded-md hover:bg-accent backdrop-blur print:hidden"
@@ -59,7 +70,7 @@ export const ProfileNav = ({ basics }) => {
             href={url}
             type="download"
             target="_blank"
-            title={'CV'}
+            title={lang === 'es' ? 'Descargar CV' : 'Download CV'}
             className="p-2 border rounded-md bg-accent backdrop-blur flex items-center gap-2 print:hidden"
           >
             <Icons.user className={'text-muted-foreground h-auto'} />
