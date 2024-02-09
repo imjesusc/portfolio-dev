@@ -8,7 +8,7 @@ export const CrafsCard = ({ craft }) => {
   return (
     <article
       className={cn(
-        'h-24',
+        'h-24 dark:bg-accent',
         'border grid grid-cols-[auto_1fr] gap-3',
         'rounded-xl p-2 transition-shadow shadow-lg',
         ' overflow-hidden',

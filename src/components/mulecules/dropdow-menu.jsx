@@ -48,7 +48,7 @@ export const DropdownMenu = ({ basics, lang, setOpen, open }) => {
       <div
         ref={menuRef}
         className={cn(
-          'bg-background border transition-opacity dark:text-white flex flex-col gap-2 rounded-xl p-6 overflow-hidden',
+          'bg-background dark:bg-accent border transition-opacity dark:text-white flex flex-col gap-2 rounded-xl p-6 overflow-hidden',
           'fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full tablet:w-auto tablet:min-w-[30%] opacity-0 -z-20 border',
           open ? 'opacity-100 z-50' : '',
         )}

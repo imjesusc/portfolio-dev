@@ -8,7 +8,7 @@ export const ProjectCard = ({ project }) => {
   const { name, url, repo, description, highlights } = project
   return (
     <article
-      className="border rounded-xl p-4 flex flex-col shadow-[0_0_90px_0px_rgba(255,105,180,0.2)]
+      className="border rounded-xl p-4 flex flex-col shadow-[0_0_90px_0px_rgba(255,105,180,0.2)] dark:bg-accent
     gap-2"
     >
       <div className="flex items-center justify-between gap-2">
