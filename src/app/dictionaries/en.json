@@ -158,7 +158,7 @@
 				"endDate": "2021-01-01",
 				"description": "Simple e-commerce with Stripe and Sanity. Make your purchase quickly and easily.",
 				"highlights": ["React", "Tailwind", "Sanity", "Stripe"],
-				"url": "https://sanity-stripe-ecommerce.vercel.app",
+				"url": "https://sanity-stripe-ecommerse.vercel.app/",
 				"repo": "https://github.com/imjesusc/ecommerce-sanity-stripe"
 			}
 		]
