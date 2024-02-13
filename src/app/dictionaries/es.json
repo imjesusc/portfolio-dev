@@ -109,7 +109,7 @@
 			{
 				"name": "Desarrollo Web",
 				"level": "Experto",
-				"keywords": ["React", "JavaScript", "Next.js", "Tailwind", "Git", "CSS", "HTML"]
+				"keywords": ["Next.js", "React", "TypeScript", "Git", "JavaScript", "Tailwind", "HTML", "CSS"]
 			}
 		]
 	},
@@ -153,7 +153,7 @@
 				"repo": "https://github.com/imjesusc/page-link"
 			},
 			{
-				"name": "Ecommerce-Sanity-Stripe",
+				"name": "Ecommerce",
 				"startDate": "2019-01-01",
 				"endDate": "2021-01-01",
 				"description": "Ecommerse simple con Stripe y Sanity. Haz tu compra de manera rápida y sencilla.",

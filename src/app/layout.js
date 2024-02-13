@@ -8,7 +8,7 @@ export const metadata = {
   description:
     'Front-end Developer con 1 año de experiencia; Conocimientos sólidos en React, JavaScript, CSS, HTML.',
   icons: {
-    icon: '/favicon.svg?v=1',
+    icon: '/favicon.png?v=1',
   },
 }
 

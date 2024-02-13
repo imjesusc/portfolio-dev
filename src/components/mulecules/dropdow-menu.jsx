@@ -66,7 +66,7 @@ export const DropdownMenu = ({ basics, lang, setOpen, open }) => {
             setOpen(false)
             setTimeout(() => globalThis.print(), 100)
           }}
-          className="hover:bg-foreground/5 px-2 py-2 rounded-md font-mono text-start text-sm transition-colors -mx-2"
+          className="hover:bg-foreground/5 px-2 py-2 rounded-md font-sans text-start text-sm transition-colors -mx-2"
         >
           {languages[lang].print}
         </button>
@@ -83,7 +83,7 @@ export const DropdownMenu = ({ basics, lang, setOpen, open }) => {
                 globalThis.open(profile.url)
               }}
               key={profile.network}
-              className="hover:bg-foreground/5 px-2 py-2 rounded-md font-mono text-start text-sm transition-colors -mx-2"
+              className="hover:bg-foreground/5 px-2 py-2 rounded-md font-sans text-start text-sm transition-colors -mx-2"
             >
               {profile.network}
             </button>

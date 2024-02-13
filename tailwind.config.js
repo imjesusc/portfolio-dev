@@ -15,6 +15,19 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        medium:
+          '0px 0px 15px 0px rgba(0,0,0,.03),0px 2px 30px 0px rgba(0,0,0,.08),0px 0px 1px 0px rgba(0,0,0,.3)',
+      },
+      keyframes: {
+        press: {
+          '0%': { width: 0, height: 0, opacity: 0.4 },
+          '100%': { width: '300px', height: '300px', opacity: 0 },
+        },
+      },
+      animation: {
+        press: 'press 500ms linear infinite',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

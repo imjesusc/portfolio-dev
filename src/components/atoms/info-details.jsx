@@ -8,7 +8,7 @@ export const InfoDetails = ({ title, details }) => {
         details.map((detail) => (
           <p
             key={detail}
-            className="max-w-[150ch] text-balance font-mono text-[13px] text-foreground/60"
+            className="max-w-[80ch] print:max-w-full text-pretty print:text-pretty font-sans text-sm text-foreground/60"
           >
             {detail}
           </p>

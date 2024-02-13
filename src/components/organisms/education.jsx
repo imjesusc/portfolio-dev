@@ -9,10 +9,10 @@ export const Education = ({ education }) => {
         {education &&
           education.educations.map((education) => (
             <div key={education.institution}>
-              <p className="text-sm font-mono dark:text-white">
+              <strong className="text-base text-foreground/70 font-sans dark:text-white">
                 {education.institution}
-              </p>
-              <p className="text-muted-foreground text-xs">
+              </strong>
+              <p className="text-muted-foreground text-sm">
                 {education.endDate}
               </p>
             </div>

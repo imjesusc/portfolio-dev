@@ -27,7 +27,7 @@ export const ProfileNav = ({ basics, lang }) => {
           <Link
             href={`mailto:${email}`}
             title={email}
-            className="block p-2 border rounded-md hover:bg-accent backdrop-blur print:hidden"
+            className="block p-2 border rounded-xl hover:bg-accent backdrop-blur print:hidden"
           >
             <Icons.mail className={'text-muted-foreground'} />{' '}
             <p className="sr-only">{email}</p>
@@ -51,7 +51,7 @@ export const ProfileNav = ({ basics, lang }) => {
                       ? dictionary[lang].github
                       : network
                   }
-                  className="block p-2 border rounded-md hover:bg-accent backdrop-blur print:hidden"
+                  className="block p-2 border rounded-xl hover:bg-accent backdrop-blur print:hidden"
                 >
                   {icons[network.toLowerCase()]}
                   <p className="sr-only print:not-sr-only text-black">
@@ -71,9 +71,12 @@ export const ProfileNav = ({ basics, lang }) => {
             type="download"
             target="_blank"
             title={lang === 'es' ? 'Descargar CV' : 'Download CV'}
-            className="p-2 border rounded-md bg-accent backdrop-blur flex items-center gap-2 print:hidden"
+            className="p-2 border rounded-xl bg-accent backdrop-blur flex items-center gap-2 print:hidden"
           >
-            <Icons.user className={'text-muted-foreground h-auto'} />
+            <Icons.fileDownload className={'text-muted-foreground h-auto'} />
+            <span className="text-muted-foreground text-sm font-sans">
+              {lang === 'es' ? 'Descargar CV' : 'Download CV'}
+            </span>
           </Link>
         </li>
       </ul>

@@ -1,9 +1,4 @@
-import {
-  HeroSection,
-  Habilities,
-  Proyectos,
-  Crafts,
-} from '@/components/organisms'
+import { HeroSection, Habilities, Proyectos } from '@/components/organisms'
 import { Command } from '@/components/organisms/command'
 import Custom404 from '../not-found'
 import { Education } from '@/components/organisms/education'
@@ -28,7 +23,7 @@ export default async function HomePage({ params }) {
         <Experiencie works={dictionary.work} />
         <Habilities skills={dictionary.skills} />
         <Education education={dictionary.education} />
-        <Crafts crafts={dictionary.crafts} />
+        {/* <Crafts crafts={dictionary.crafts} /> */}
         <Command basics={dictionary.basics} lang={params.lang} />
       </main>
     </>
