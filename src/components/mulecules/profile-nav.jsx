@@ -73,7 +73,7 @@ export const ProfileNav = ({ basics, lang }) => {
             className="p-2 border rounded-xl bg-accent backdrop-blur flex items-center gap-2 print:hidden"
           >
             <Icons.fileDownload className={'text-muted-foreground h-auto'} />
-            <span className="text-muted-foreground text-sm font-sans">
+            <span className="text-foreground text-sm font-sans">
               {lang === 'es' ? 'Descargar CV' : 'Download CV'}
             </span>
           </Link>

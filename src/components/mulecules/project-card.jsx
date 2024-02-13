@@ -43,7 +43,7 @@ export const ProjectCard = ({ project }) => {
         'shadow-medium print:shadow-none  cursor-pointer',
       )}
     >
-      <div className="print:hidden">
+      <section className="print:hidden">
         <Link
           href={repo}
           title="Github"
@@ -61,27 +61,27 @@ export const ProjectCard = ({ project }) => {
         >
           <Icons.link className="w-5 h-5  text-blue-500" />
         </Link>
-      </div>
+      </section>
 
-      <div className="flex flex-col gap-2 p-4">
-        <div className="flex items-center justify-between gap-2">
+      <section className="flex flex-col gap-2 p-4">
+        <header className="flex items-center justify-between gap-2">
           <Title
             tag={'h3'}
             text={name}
             className={'line-clamp-1 max-w-[18ch]'}
           />
-        </div>
+        </header>
         <p className="font-sans text-sm text-foreground/60 line-clamp-3 mb-4 overflow-hidden">
           {description}
         </p>
 
-        <div className="flex gap-2 flex-wrap">
+        <footer className="flex gap-2 flex-wrap">
           {highlights &&
             highlights?.map((highlight) => (
               <Badge key={highlight} text={highlight} />
             ))}
-        </div>
-      </div>
+        </footer>
+      </section>
     </article>
   )
 }
