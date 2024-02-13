@@ -1,6 +1,5 @@
 'use client'
 
-import { pressAnimate } from '@/lib/press-animate'
 import { Badge } from '../atoms/badge'
 import { Title } from '../atoms/title'
 import { Icons } from '../ui'
@@ -26,7 +25,6 @@ export const Habilities = ({ skills }) => {
         {skillList &&
           skillList[0]?.keywords?.map((keyword) => (
             <Badge
-              onClick={pressAnimate}
               variant={'md'}
               className={
                 'overflow-hidden flex gap-2 items-center justify-center'
