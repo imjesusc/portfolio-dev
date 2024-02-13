@@ -40,7 +40,7 @@ export const ProjectCard = ({ project }) => {
       onClick={pressAnimate}
       className={cn(
         'border-transparent dark:border dark:border-accent print:border print:border-accent  rounded-xl flex flex-col overflow-hidden',
-        'shadow-medium print:shadow-none  cursor-pointer',
+        'shadow-medium dark:bg-accent print:shadow-none  cursor-pointer',
       )}
     >
       <section className="print:hidden">
