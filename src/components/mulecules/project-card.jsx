@@ -35,7 +35,7 @@ export const ProjectCard = ({ project }) => {
           target="_blank"
           className="absolute top-4 right-14 bg-blue-200/80 dark:bg-foreground/20 hover:opacity-55 z-20 p-1 flex items-center justify-center border rounded-full"
         >
-          <Icons.link className="w-5 h-5 text-muted-foreground text-blue-500" />
+          <Icons.link className="w-5 h-5  text-blue-500" />
         </Link>
       </div>
 

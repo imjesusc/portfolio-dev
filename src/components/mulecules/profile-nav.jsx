@@ -68,7 +68,6 @@ export const ProfileNav = ({ basics, lang }) => {
         <li>
           <Link
             href={url}
-            type="download"
             target="_blank"
             title={lang === 'es' ? 'Descargar CV' : 'Download CV'}
             className="p-2 border rounded-xl bg-accent backdrop-blur flex items-center gap-2 print:hidden"

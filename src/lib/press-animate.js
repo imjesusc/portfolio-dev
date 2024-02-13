@@ -1,3 +1,4 @@
+'use client'
 export const pressAnimate = (event) => {
   const rect = event.currentTarget.getBoundingClientRect()
   const x = event.clientX - rect.left
@@ -9,7 +10,7 @@ export const pressAnimate = (event) => {
 
   replies.classList.add(
     'absolute',
-    'bg-gray-600',
+    'bg-gray-500',
     '-translate-x-1/2',
     '-translate-y-1/2',
     'pointer-events-none',

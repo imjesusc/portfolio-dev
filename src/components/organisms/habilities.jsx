@@ -9,14 +9,14 @@ export const Habilities = ({ skills }) => {
   const { skills: skillList, name } = skills
 
   const icons = {
-    javascript: <Icons.javascript />,
-    html: <Icons.html />,
-    css: <Icons.css />,
-    tailwind: <Icons.tailwind />,
-    react: <Icons.react />,
-    'next.js': <Icons.nextjs />,
-    git: <Icons.git />,
-    typescript: <Icons.typescript />,
+    javascript: <Icons.javascript className={'w-5 h-5'} />,
+    html: <Icons.html className={'w-5 h-5'} />,
+    css: <Icons.css className={'w-5 h-5'} />,
+    tailwind: <Icons.tailwind className={'w-5 h-5'} />,
+    react: <Icons.react className={'w-5 h-5'} />,
+    'next.js': <Icons.nextjs className={'w-5 h-5'} />,
+    git: <Icons.git className={'w-5 h-5'} />,
+    typescript: <Icons.typescript className={'w-5 h-5'} />,
   }
 
   return (

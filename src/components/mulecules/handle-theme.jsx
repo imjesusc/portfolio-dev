@@ -26,7 +26,7 @@ export const HandleTheme = () => {
         onClick={toggleTheme}
         id="theme-toggle"
         aria-label="Toggle Dark Mode"
-        className="shadow-sm rounded-md p-2"
+        className="p-2 border-none"
       >
         {theme === 'light' ? (
           <Icons.moon />
